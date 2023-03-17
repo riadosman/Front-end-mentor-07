@@ -10,32 +10,35 @@
     --Dark-blue: hsl(218, 44%, 22%);
 }
 body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
     background-color: var(--Light-gray);
 }
-.card{
+main{
     background-color: var(--White);
-    margin: 100px auto;
     padding: 15px;
     width: 300px;
     height: 450px;
     border-radius: 10px;
 }
-.card .img img{
+main .img img{
     width: 100%;
     border-radius: 10px;
 }
-.card .content{
+main .content{
     text-align: center;
 }
-.card .content h1{
+main .content h1{
     margin-top: 10px;
     font-weight: 700;
     font-size: 1.4rem;
     color: var(--Dark-blue);
 }
-.card .content p{
+main .content p{
     font-weight: 400;
     font-size: 1rem;
     margin-top: 10px;
